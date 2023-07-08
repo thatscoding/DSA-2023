@@ -6,7 +6,7 @@ void printPrimeRange(int a,int b){
         int i;
         for(i=2; i<num; i++){
             if(num%i==0){
-                break;1
+                break;
             }
         }
         if(num==i){
