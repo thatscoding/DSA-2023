@@ -9,13 +9,9 @@ int main()
     {
         for (int j = 1; j <= n; j++)
         {
-            if (j <= i - 1)
+            if (j <= n - i + 1)
             {
-                cout << " ";
-            }
-            else
-            {
-                cout << "*";
+                cout << j << " ";
             }
         }
         cout << endl;

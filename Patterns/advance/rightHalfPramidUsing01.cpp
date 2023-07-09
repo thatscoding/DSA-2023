@@ -7,15 +7,15 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n; j++)
+        for (int j = 1; j <= i; j++)
         {
-            if (j <= i - 1)
+            if ((i + j) % 2 == 0)
             {
-                cout << " ";
+                cout << " 1 ";
             }
             else
             {
-                cout << "*";
+                cout << " 0 ";
             }
         }
         cout << endl;
