@@ -1,0 +1,2 @@
+
+        queue[rear] = data;
